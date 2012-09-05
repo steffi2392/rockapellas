@@ -43,6 +43,16 @@
 	  if ($(this).scrollTop() < 180 && $el.css('position') == 'fixed') { $('#primary').css({'position': 'static', 'top': '0px', 'margin':'auto'}); }
 	});
 	</script>
+	
+	<script>
+		$(document).ready(function(e) {
+			$('.individual').hover(function() {
+				$(this).children('.color').attr('style', 'display:table-cell;');			
+				}, function() {
+				$(this).children('.color').hide();
+			});
+		});
+	</script>
 		
 </head>
 	
