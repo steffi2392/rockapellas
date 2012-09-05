@@ -96,7 +96,7 @@ header .logo{
 }
 
 #primary ul{
-	width: 900px;
+	width: 850px;
 	margin: auto;
 }
 
@@ -491,13 +491,67 @@ footer p{
 /*HISTORY*/
 
 .history-pics{
-	width: 700px;
+	width: 970px;
+	;
 	margin: auto;
 }
 
 .history-pics img{
-	width: 200px;
+	height: 250px;
 	float: left;
+}
+
+.history {
+border: 1px #616363 solid;
+color: #616363;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+font: normal 13px 'Courier';
+position: relative;
+padding: 10px;
+width: 50%;
+clear: both;
+top: 20px;
+}
+
+.history section{
+	background: #F2F3F4;
+}
+
+.history h1{
+	padding-top: 15px;
+	text-align: center;
+	font-family: Verdana, helvetica, sans-serif;
+	color: #cc2030;
+}
+
+.history p{
+	margin: 0;
+	overflow: hidden;
+	padding: 15px 60px 15px 60px;
+	text-align: justify;
+}
+
+#space{
+	height: 50px;
+	width: 100%;
+}
+
+#freedom_songs{
+	width: 640px;
+	background: #F2F3F4;
+	display: inline-block;
+	position: relative;
+	margin: auto;
+}
+
+#freedom_songs h2{
+	font-family: Verdana, helvetica, sans-serif;
+	text-align: center;
+	color: #cc2030;
+	text-transform: uppercase;
+	letter-spacing:4px;
 }
 
 /* Internet Explorer 7 Fixes */
