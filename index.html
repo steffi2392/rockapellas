@@ -38,7 +38,7 @@
 	$(window).scroll(function(e){ 
 	  $el = $('#primary'); 
 	  if ($(this).scrollTop() > 180 && $el.css('position') != 'fixed'){ 
-	    $('#primary').css({'position': 'fixed', 'top': '0px'}); 
+	    $('#primary').css({'position': 'fixed', 'top': '0px', 'left':'67px'}); 
 	  };
 	  if ($(this).scrollTop() < 180 && $el.css('position') == 'fixed') { $('#primary').css({'position': 'static', 'top': '0px'}); }
 	});
@@ -51,6 +51,7 @@
 <body>
 
 <div class='header-bg'></div>
+<div class='header-bg-small'></div>
 <div class='container'>
 	<header>
 		<a class="logo" href="/"><img src="images/logo.png" alt="The Dartmouth Rockapellas"></a>
