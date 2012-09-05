@@ -94,21 +94,6 @@ header .logo{
 	z-index: 5;
 	
 }
-/*
-#primary {
-	width:  100%;
-	height:  28px;
-	background-color: #fafaf6;
-	margin-top: 10px;
-	margin-bottom: 20px;
-	padding-top:  14px;
-	font: bold 13px "DroidSansBold", Verdana, sans-serif;
-	-moz-box-shadow:  0px 1px 2px #ccc;
-	-webkit-box-shadow:  0px 1px 2px #ccc;
-	box-shadow:  0px 1px 2px #ccc;
-	text-transform:  uppercase;
-	letter-spacing: 1px;
-}*/
 
 #primary ul{
 	width: 900px;
@@ -421,8 +406,29 @@ footer p{
 
 .name{
 	width: 250px;
-	background-color: #ffffff;
+	background-color: #616363;
 	height: 50px;
+	z-index: 4;
+	position: absolute;
+	top: 200px;
+	text-align: center;
+	font-size: 12px;
+	font-family: Verdana, helvetica, sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.name p{
+	color: #ffffff;
+	position: relative;
+	top: 8px;
+	font-size: 13px;
+}
+
+.name span{
+	letter-spacing: 1px;
+	text-transform: none;
+	color: black;
 }
 
 .members {
@@ -430,6 +436,7 @@ footer p{
 	margin:  auto;
 	position: relative;
 	height: 1000px;
+	margin-top: 20px;
 }
 
 .members h1 {
