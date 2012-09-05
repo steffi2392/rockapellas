@@ -578,8 +578,23 @@ iframe{
 	margin-top: 10px;
 }
 
+#more{
+	background-color: F2F3F4;
+	width: 400px;
+	margin: auto;
+}
+
 #more a{
 	color: black;
+	font-family: Verdana, helvetica, sans-serif;
+	color: black;
+	font-size: 16px;
+	border-bottom: 1px dotted black;
+	
+}
+
+#more a:hover{
+	font-style: italic;
 }
 
 
