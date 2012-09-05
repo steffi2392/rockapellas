@@ -416,6 +416,7 @@ footer p{
 	font-family: Verdana, helvetica, sans-serif;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+	opacity: .8;
 }
 
 .name p{
