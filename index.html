@@ -33,6 +33,18 @@
 	    });
 	});
 	</script>
+	
+	<script type='text/javascript'>
+	$(window).scroll(function(e){ 
+	  $el = $('#primary'); 
+	  if ($(this).scrollTop() > 200 && $el.css('position') != 'fixed'){ 
+	    $('#primary').css({'position': 'fixed', 'top': '0px'}); 
+	  };
+	  if ($(this).scrollTop() < 200 && $el.css('position') == 'fixed') { $('#primary').css({'position': 'static', 'top': '0px'}); }
+	});
+	</script>
+	
+		
 		
 </head>
 	
