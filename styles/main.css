@@ -111,7 +111,7 @@ header .logo{
 }*/
 
 #primary ul{
-	width: 803px;
+	width: 900px;
 	margin: auto;
 }
 
@@ -472,3 +472,32 @@ footer p{
 .fancymembers img {
 	margin: 3px;
 }
+
+/*HISTORY*/
+
+.history-pics{
+	width: 700px;
+	margin: auto;
+}
+
+.history-pics img{
+	width: 200px;
+	float: left;
+}
+
+/* Internet Explorer 7 Fixes */
+
+html.ie7 {
+
+}
+
+	html.ie7 body {
+		padding-top: 25px;
+	}
+	
+
+		html.ie7 header nav a {
+			text-align: center;
+			width: 75px;
+		}
+		
