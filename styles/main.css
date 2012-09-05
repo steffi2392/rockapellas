@@ -476,11 +476,15 @@ footer p{
 	padding-left: 0;
 	margin-bottom: 10px;
 	text-align: justify;
-	width: 400px;
+	width: 500px;
 }
 
 .fancymembers img {
 	margin: 5px;
+	margin-left: 10px;
+	width: 200px;
+	vertical-align:center;
+	position: relative;
 }
 
 /*HISTORY*/
