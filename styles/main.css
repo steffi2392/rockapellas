@@ -453,13 +453,13 @@ footer p{
 .fancymembers h3 {
 	font: bold 30px 'Bebas', Arial, sans-serif;
 	letter-spacing: 1px;
-	color: #4f2683;
+	color: #cc2030;
 	text-transform: uppercase;
 	margin: 0;
 }
 
 .fancymembers h4{
-	font: italic 18px/27px 'ColaborateThinRegular', Arial, sans-serif;
+	font: italic 18px/27px Verdana, Arial, sans-serif;
 	position: relative;
 	top: -5px;
 	margin: 0;
@@ -471,13 +471,16 @@ footer p{
 }
 
 .fancymembers ul, .fancymembers p{
-	font: 18px/27px 'ColaborateThinRegular', Arial, sans-serif;
-	line-height: 96%;
+	font: 14px Verdana, Arial, sans-serif;
+	padding: 10px;
+	padding-left: 0;
 	margin-bottom: 10px;
+	text-align: justify;
+	width: 400px;
 }
 
 .fancymembers img {
-	margin: 3px;
+	margin: 5px;
 }
 
 /*HISTORY*/
