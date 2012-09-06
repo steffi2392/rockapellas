@@ -54,6 +54,20 @@ body{
 	margin: 0;
 }
 
+#social {
+	position:  absolute;
+	top: 25px;
+}
+
+#social h1{
+	font: 14px 'Bebas', Arial, sans-serif;
+	letter-spacing: 2px;
+	position:  absolute;
+	top: -15px;
+	left:  10px;
+	position: absolute;
+}
+
 .container{
 	border: 1px #252525 solid;
 	padding: 0 25px;
@@ -203,6 +217,14 @@ height: 100%;
 	text-align: center;
 	margin: 10px;
 	}
+	
+#cd a{
+	border-bottom: 1px dotted #333;
+}
+
+#cd a:hover{
+	font-style: italic;
+}
 	
 #upcoming{
 	width: 236px;
@@ -675,6 +697,45 @@ padding: 10px;
 width: 50%;
 clear: both;
 top: 20px;
+}
+
+
+.contact h1{
+	padding-top: 15px;
+	text-align: center;
+	font-family: Verdana, helvetica, sans-serif;
+	color: #cc2030;
+}
+
+.contact article{
+	background-color: #f2f3f4;
+	padding: 40px 20px 40px 20px;
+}
+
+.contact p{
+	margin: 0;
+	overflow: hidden;
+	padding: 15px 60px 15px 60px;
+	text-align: justify;
+	font: normal 14px 'Courier';
+}
+
+.contact ul{
+	text-align: center;
+	color:  #616363;
+}
+
+.contact span{
+	color:  black;
+}
+
+.contact a{
+	border-bottom: 1px dotted #616363;
+	color: #616363;
+}
+
+.contact a:hover{
+	font-style: italic;
 }
 
 
