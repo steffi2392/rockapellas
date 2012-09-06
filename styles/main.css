@@ -95,11 +95,13 @@ header .logo{
 
 
 #primary {
-	width:  1020px;
+	width:  1000px;
 	/*width: 100%;*/
 	height: 28px;
 	background-color: #cc2030;
+	padding-left: 20px;
 	padding-top: 14px;
+	padding-bottom: 0;
 	margin: auto;
 	margin-bottom: 20px;
 	font: bold 13px Verdana, sans-serif;
@@ -110,7 +112,7 @@ header .logo{
 }
 
 #primary ul{
-	width: 800px;
+	width: 775px;
 	margin: auto;
 }
 
@@ -130,7 +132,7 @@ header .logo{
 	margin: 15px;
 }
 
-#first{
+#primary ul li:first-child{
 	padding-left: 0;
 }
 
