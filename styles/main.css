@@ -787,4 +787,7 @@ html.ie7 {
      top: -10px;
   }
 }
+
+/* IE8, IE9 */
+#upcoming  {top: -10px\0/;}
 		
