@@ -776,6 +776,10 @@ html.ie7 {
 			width: 75px;
 		}
 		
+		html.ie7 #upcoming{
+			top: -10px;
+		}
+		
 
 /* Firefox fixes */		
 @-moz-document url-prefix() { 
