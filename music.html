@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Dartmouth Rockapellas</title>
+	
+	<link rel="stylesheet" href="styles/main.css" type="text/css" />
+	
+	
+	<!--[if ltIE9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<script type="text/javascript" src="javascript/jquery-1.7.2.js"></script>
+	
+
+	<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+	
+	<link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+	$(window).load(function() {
+	    $('#slider').nivoSlider({
+	    	effect: 'fade',
+	    	pauseTime: 6000,
+	    	directionNav: false, 
+	    	controlNav: false
+	    });
+	});
+	</script>
+	
+	<script type='text/javascript'>
+	$(window).scroll(function(e){ 
+	  $el = $('#primary'); 
+	  if ($(this).scrollTop() > 180 && $el.css('position') != 'fixed'){ 
+	    $('#primary').css({'position': 'fixed', 'top': '0px', 'left':'50%', 'margin-left':'-510px'}); 
+	  };
+	  if ($(this).scrollTop() < 180 && $el.css('position') == 'fixed') { $('#primary').css({'position': 'static', 'top': '0px', 'margin':'auto'}); }
+	});
+	</script>
+	
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.0" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.0"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
+		
+</head>
+	
+<body>
+
+<div class='header-bg'></div>
+<div class='header-bg-small'></div>
+<div class='container'>
+	<header>
+		<a class="logo" href="/"><img src="images/logo.png" alt="The Dartmouth Rockapellas"></a>
+		<nav id='primary'>
+			<ul>
+				<li><a href='index.html'>Home</a></li>
+				<li><a href='members.html'>Members</a></li>
+				<li><a href='history.html'>History</a></li>
+				<li><a href='videos.html'>Videos</a></li>
+				<li><a href='music.html'>Music</a></li>
+				<li><a href='contact.html'>Contact Us</a></li>
+			</ul>
+		</nav>
+				
+	</header>
+	<div class='content'>
+		<div class='history-pics'>
+			<img src='images/history1.jpeg'>
+			<img src='images/history3.jpeg'>
+			<img src='images/history2.jpeg'>
+		</div>
+		
+		<div class="songs">
+		          <div class="center"><p><strong>Rock</strong><br />
+		Sunday Bloody Sunday • Don't Stop Believin' • Fix You • To Zion • Because the Night • Hit Me With Your Best Shot • Goodbye • 100 Round the Bends • Two Step • My Vietnam • Black Velvet • Ana's Song</p>
+		<p><strong>Pop/Oldies</strong><br />
+		Natural Woman • Objection • Superstition<br />
+		No One • Put Your Records On •Tracks of My Tears • You're Just Too Good To Be True • Independent Women • Valerie • Listen to the Music • Hit 'Em Up Style • Teenage Dream • Say You'll Be There • Price Tag • Kaleidoscope Heart • Shark in the Water</p>
+		<p><strong>Country/Folk</strong><br />
+		I Can Love You Better • Goodbye Earl • Ghost • What's Up? • Orbiting • I'll Forget You • Minnow and the Trout</p>
+		<p><strong>Freedom Songs</strong><br />
+		Gratitude • Nana's House • Not An Addict • Patchwork Quilt • Harbor Me • Revolution • Bury My Heart at Wounded Knee • Testimony • Ella's Song • Unpretty • Why Should I Cry About Freedom? • Wanting Memories • Prayer of the Children • Through the Glass • Poor Man's House • Vida • The Women Gather • The Dark I Know Well • Fiddle and the Drum</p>
+		<p><strong>Dartmouth Traditionals</strong><br />
+		Fa Roo For Es • Dartmouth Undying • Alma Mater
+		</div>
+		                  </div>
+		      </div>
+		      
+		<div class='albums'>
+			<ul>
+				<li><a class='fancybox' href='#livefree'><img src='images/albums/livefree.jpeg'></a></li>
+				<li><a class='fancybox' href='#testimony'><img src='images/albums/testimony.jpeg'></a></li>
+				<li><a class='fancybox' href='#bare'><img src='images/albums/bare.png'></a></li>
+				<li><a class='fancybox' href='#velvet'><img src='images/albums/velvet.jpeg'></a></li>
+				<li><a class='fancybox' href='#think'><img src='images/albums/think.jpeg'></a></li>
+				<li><a class='fancybox' href='#track'><img src='images/albums/track.jpeg'></a></li>
+				<li><a class='fancybox' href='#definitions'><img src='images/albums/definitions.jpeg'></a></li>
+			</ul>
+		</div>
+		
+		<div id='space'></div>
+		
+	</div>	
+	
+<footer>
+	<div class='clear'></div>
+</footer>
+</div>
+
+<div class='end'>We who believe in freedom cannot rest.</div>
+<div class='footer-bg'></div>
+
+<div id="livefree" class="fancyalbums" style="width:600px;display: none;">
+	<img alt="Live Free" src="images/albums/livefree.jpeg" align="right"/>
+	<h1>Live Free</h1>
+	<h2>2011</h2>
+	<ul>
+		<li>1. Ghost (Indigo Girls)</li>
+		<li>2. Would You Harbor Me? (Sweet Honey in the Rock)</li>
+		<li>3. Hit 'Em Up Style (Blue Cantrell)</li>
+		<li>4. I'll Forget You (Lior)</li>
+		<li>5. Ana's Song (Open Fire)</li>
+		<li>6. Minnow and the Trout (A Fine Frenzy)</li>
+		<li>7. Shark in the Water (VV Brown)</li>
+		<li>8. 100 Round the Bends (Missy Higgins)</li>
+		<li>9. No One (Alicia Keys)</li>
+		<li>10. My Vietnam (Pink)</li>
+		<li>11. The Women Gather (Sweet Honey in the Rock)</li>
+		<li>12. Testimony (Ferron)</li>
+		<li>13. Kaleidoscope Heart - Live (Sara Bareilles)</li>
+	</ul>
+</div>
+
+<div id="testimony" class="fancyalbums" style="width:600px;display: none;">
+	<img alt="Testimony" src="images/albums/testimony.jpeg" align="right"/>
+	<h1>Testimony</h1>
+	<h2>2009</h2>
+	<ul>
+		<li>1. Don't Stop Believing (Journey)</li>
+		<li>2. How Can I Cry For Freedom? (Vida)</li>
+		<li>3. To Zion (Lauryn Hill)</li>
+		<li>4. Fix You (Coldplay)</li>
+		<li>5. Objection (Shakira)</li>
+		<li>6. Not an Addict (K's Choice)</li>
+		<li>7. Because the Night (Patti Smith)</li>
+		<li>8. Can't Take My Eyes Off Of You (Lauryn Hill)</li>
+		<li>9. I Can Love You Better (Dixie Chicks)</li>
+		<li>10. She Goes On (Crowded House)</li>
+		<li>11. Testimony</li>
+	</ul>
+</div>
+
+<div id="bare" class="fancyalbums" style="width:600px;display: none;">
+	<img alt="Bare" src="images/albums/bare.png" align="right"/>
+	<h1>Bare</h1>
+	<h2>2003</h2>
+	<ul>
+		<li>1. Superstition (Stevie Wonder)</li>
+		<li>2. Another Day in Paradise (Phil Collins)</li>
+		<li>3. Build Me Up Buttercup (The Foundations)</li>
+		<li>4. Round Here (Counting Crows)</li>
+		<li>5. Unpretty (TLC)</li>
+		<li>6. Tracks of My Tears (Smokey Robinson)</li>
+		<li>7. Ghost (Indigo Girls)</li>
+		<li>8. You Keep Me Hanging On (Diana Ross)</li>
+		<li>9. Why Should I Cry For You (Sting)</li>
+		<li>10. A Woman's Worth (Alicia Keys)</li>
+		<li>11. A Sunday Kind of Love (Etta James)</li>
+		<li>12. Cryin' (Aerosmith)</li>
+		<li>13. Goodbye (Save Ferris)</li>
+		<li>14. Prayer of the Children (Kurt Bestor)</li>
+		<li>15. Pebbley (Bob Dylan/John Lennon)</li>
+	</ul>
+</div>
+
+<div id="velvet" class="fancyalbums" style="width:600px;display: none;">
+	<img alt="Velvet" src="images/albums/velvet.jpeg" align="right"/>
+	<h1>Velvet Rocks</h1>
+	<h2>1999</h2>
+	<ul>
+		<li>1. Spiderwebs (No Doubt)</li>
+		<li>2. Midnight Train to Georgia (Gladys Knight and the Pips)</li>
+		<li>3. Baby Can I Hold You Tonight (Tracy Chapman)</li>
+		<li>4. Through the Glass (Susan Werner)</li>
+		<li>5. Supermodel (Jill Soboule)</li>
+		<li>6. Every Breath You Take (The Police)</li>
+		<li>7. Nine to Five (Dolly Parton)</li>
+		<li>8. Ella's Song (Sweet Honey In the Rock)</li>
+		<li>9. Don't Dream It's Over (Crowded House)</li>
+		<li>10. Two-Step (Dave Matthew's Band)</li>
+		<li>11. Snow on the Sahara (Anggun)</li>
+		<li>12. Poor Man's House (Patty Griffin)</li>
+		<li>13. Missing (Everything But the Girl)</li>
+		<li>14. Ice Cream (Sarah McLachlan)</li>
+		<li>15. Hit Me With Your Best Show (Pat Benatar)</li>
+		<li>16. Bury My Heart at Wounded Knee (Indigo Girl)</li>
+	</ul>
+</div>
+
+<div id="think" class="fancyalbums" style="width:600px;display: none;">
+	<img alt="Think" src="images/albums/think.jpeg" align="right"/>
+	<h1>Think of These Things</h1>
+	<h2>1996</h2>
+	<ul>
+		<li>1. Hand In My Pocket (Alanis Morrisette)</li>
+		<li>2. I'm In a Hurry (Alabama)</li>
+		<li>3. Hooked On A Feeling (Blue Suede)</li>
+		<li>4. Sweater Song (Meryn Cadell)</li>
+		<li>5. Walk Like An Egyptian (Bangles)</li>
+		<li>6. Gratitude (Ani Difranco)</li>
+		<li>7. Solsbury Hill (Peter Gabriel)</li>
+		<li>8. Sexual Healing (Marvin Gaye)</li>
+		<li>9. Preacherman (Dusty Springfield)</li>
+		<li>10. Luka (Suzanne Vega)</li>
+		<li>11. Can't Hurry Love (Genesis)</li>
+		<li>12. Guess That's Why They Call It The Blues (Elton John)</li>
+		<li>13. He Thinks He'll Keep Her (Mary Chapin Carpenter)</li>
+		<li>14. Run Baby Run (K7)</li>
+		<li>15. Carnival (Natalie Merchant)</li>
+		<li>16. Big Yellow Taxi (Joni Mitchell)</li>
+		<li>17. Love Will Come To You (Indigo Girls)</li>
+		<li>18. Fa Roo, For Es</li>
+		<li>19. Yesterday (En Vogue)</li>
+		<li>20. Wanting Memories (Sweet Honey in the Rock)</li>
+	</ul>
+</div>
+
+<div id="track" class="fancyalbums" style="width:600px;display: none;">
+	<img alt="Track" src="images/albums/track.jpeg" align="right"/>
+	<h1>Off The Track</h1>
+	<h2>1994</h2>
+	<ul>
+		<li>1. Higher and Higher (The Mint Juleps)</li>
+		<li>2. Give a Little Bit (Supertramp)</li>
+		<li>3. Rivers of Babylon (Jimmy Cliff)</li>
+		<li>4. No Rain (Blind Melon)</li>
+		<li>5. Patchwork Quilt (Sweet Honey in the Rock)</li>
+		<li>6. Baby I Love You (Aretha Franklin)</li>
+		<li>7. For What It's Worth (Buffalo Springfield)</li>
+		<li>8. Give It Up (KC and the Sunshine Band)</li>
+		<li>9. Stop Your Fussin' (Toni Childs)</li>
+		<li>10. Your Children (Sweet Honey in the Rock)</li>
+		<li>11. Love Me Like a Rock (Paul Simon)</li>
+		<li>12. Little Bird (Annie Lennox)</li>
+		<li>13. In This Land (Sweet Honey in the Rock)</li>
+		<li>14. Dartmouth Heartsong</li>
+		<li>15. Rio (Duran Duran)</li>
+		<li>16. Shaking The Tree (Peter Gabriel)</li>
+		<li>17. Baby Got Facts (Adapted from Sir Mixalot)</li>
+	</ul>
+</div>
+
+<div id="definitions" class="fancyalbums" style="width:600px;display: none;">
+	<img alt="Definitions" src="images/albums/definitions.jpeg" align="right"/>
+	<h1>Definitions</h1>
+	<h2>1992</h2>
+	<ul>
+		<li>1. Oh Freedom (Fajer)</li>
+		<li>2. Tainted Love (Soft Cell)</li>
+		<li>3. Mr. Blue (Yaz)</li>
+		<li>4. Fire (Pointer Sisters)</li>
+		<li>5. Cherish (Madonna)</li>
+		<li>6. Two Voices (Sweet Honey in the Rock)</li>
+		<li>7. Here Comes the Rain Again (Eurythmics)</li>
+		<li>8. Rock-A-Pella Time (Adapted from MC Hammer)</li>
+		<li>9. Have a Heart (Bonnie Raitt)</li>
+		<li>10. Sweet Bird of Youth (Sweet Honey in the Rock)</li>
+		<li>11. Teach Your Children (Crosby, Stills, Nash and Young)</li>
+		<li>12. Prince of Darkness (Indigo Girls)</li>
+		<li>13. Miles away (Basia)</li>
+		<li>14. Ella's Song (Sweet Honey in the Rock)</li>
+		<li>15. Love Potion #9 (The Clovers)</li>
+		<li>16. Our Leige Lady, Dartmouth (Richard Hovey '85)</li>
+		<li>17. Breaths (Sweet Honey in the Rock)</li>
+	</ul>
+</div>
+	
+</body>
+
+</html>

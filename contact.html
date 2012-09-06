@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Dartmouth Rockapellas</title>
+	
+	<link rel="stylesheet" href="styles/main.css" type="text/css" />
+	
+	
+	<!--[if ltIE9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<script type="text/javascript" src="javascript/jquery-1.7.2.js"></script>
+	
+
+	<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+	
+	<link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+	$(window).load(function() {
+	    $('#slider').nivoSlider({
+	    	effect: 'fade',
+	    	pauseTime: 6000,
+	    	directionNav: false, 
+	    	controlNav: false
+	    });
+	});
+	</script>
+	
+	<script type='text/javascript'>
+	$(window).scroll(function(e){ 
+	  $el = $('#primary'); 
+	  if ($(this).scrollTop() > 180 && $el.css('position') != 'fixed'){ 
+	    $('#primary').css({'position': 'fixed', 'top': '0px', 'left':'50%', 'margin-left':'-510px'}); 
+	  };
+	  if ($(this).scrollTop() < 180 && $el.css('position') == 'fixed') { $('#primary').css({'position': 'static', 'top': '0px', 'margin':'auto'}); }
+	});
+	</script>
+		
+</head>
+	
+<body>
+
+<div class='header-bg'></div>
+<div class='header-bg-small'></div>
+<div class='container'>
+	<header>
+		<a class="logo" href="/"><img src="images/logo.png" alt="The Dartmouth Rockapellas"></a>
+		<nav id='primary'>
+			<ul>
+				<li><a href='index.html'>Home</a></li>
+				<li><a href='members.html'>Members</a></li>
+				<li><a href='history.html'>History</a></li>
+				<li><a href='videos.html'>Videos</a></li>
+				<li><a href='music.html'>Music</a></li>
+				<li><a href='contact.html'>Contact Us</a></li>
+			</ul>
+		</nav>
+				
+	</header>
+	<div class='content'>
+		<div class='history-pics'>
+			<img src='images/history1.jpeg'>
+			<img src='images/history3.jpeg'>
+			<img src='images/history2.jpeg'>
+		</div>
+		
+		<div class=contact>
+			<article>
+				<header><h1>Contact Us</h1></header>
+				<p>We would love to hear from you! Let us know what you think of our CDs and concerts, book us for a show, send us song suggestions, and be in the loop on all things Rockapellas.</p>
+				<ul>
+					<li> <span>Email:</span> 
+					<a href='mailto:rockapellas@dartmouth.edu' target='_blank'> rockapellas@dartmouth.edu </a></li>
+					<li> <span>Twitter:</span> <a href='https://twitter.com/Rockapellas' target='_blank'> @Rockapellas </a></li>
+				</ul>
+			</article>		</div>
+		
+		<div id='space'></div>
+		
+	</div>	
+	
+<footer>
+	<div class='clear'></div>
+</footer>
+</div>
+
+<div class='end'>We who believe in freedom cannot rest.</div>
+<div class='footer-bg'></div>
+	
+</body>
+
+</html>
