@@ -780,7 +780,7 @@ html.ie7 {
 /* Firefox fixes */		
 @-moz-document url-prefix() { 
   #upcoming {
-     top: 10px;
+     top: -10px;
   }
 }
 		
