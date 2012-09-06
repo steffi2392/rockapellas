@@ -54,6 +54,7 @@ body{
 	margin: 0;
 }
 
+
 #social {
 	position:  absolute;
 	top: 25px;
@@ -99,7 +100,6 @@ header .logo{
 	/*width: 100%;*/
 	height: 28px;
 	background-color: #cc2030;
-	padding-left: 40px;
 	padding-top: 14px;
 	padding-bottom: 0;
 	margin: auto;
