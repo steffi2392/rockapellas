@@ -641,7 +641,7 @@ top: 20px;
 }
 
 .albums{
-	width: 720px;
+	width: 770px;
 	height: 200px;
 	position: relative;
 	margin: auto;
@@ -651,11 +651,26 @@ top: 20px;
 
 .albums li{
 	display: inline-block;
+	position: relative;
+	width: 100px;
 }
 
-.albums img{
+.albums a > img{
 	height: 100px;
-	position: relative;
+	width: 100px;
+	position: absolute;
+	display: inline-block;
+	float: left;
+	z-index: 1;
+}
+
+.albums a:hover > img{
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	z-index: 2;
+	top: -20px;
+	left: -20px;
 }
 
 .fancyalbums{
