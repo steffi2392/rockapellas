@@ -1,0 +1,1 @@
+This is the website for the Dartmouth Rockapellas, an all female a cappella group. All development/design for this site was done by Steffi Ostrowski. 
