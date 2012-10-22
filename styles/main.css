@@ -224,11 +224,17 @@ height: 100%;
 	margin: 10px;
 	}
 	
-#cd a{
+#sixteens img{
+	width: 150px;
+	display: inline-block;
+}
+
+	
+#cd a, #sixteens a{
 	border-bottom: 1px dotted #333;
 }
 
-#cd a:hover{
+#cd a:hover, #sixteens a:hover{
 	font-style: italic;
 }
 	
@@ -237,7 +243,7 @@ height: 100%;
 	font-family: Verdana, helvetica, sans-serif;
 	border-right: 1px #616363 solid;
 	height: 218px;
-	top: -46px;
+	top: -54px;
 	position: relative;
 	padding: 20px;
 	padding-bottom: 0;
@@ -282,12 +288,20 @@ height: 100%;
 	left: 20px;
 }
 
-#cd p{
+#cd p, #sixteens p{
 	font-family: Verdana, helvetica, sans-serif;
 	font-size: 14px;
 	line-height:1.8em;
 	width: 200px;
 	margin: auto;
+}
+
+#sixteens p{
+	display: inline-block;
+	margin-left: 10px;
+	width: 250px;
+	position: relative;
+	top: -30px;
 }
 
 #cd img{
@@ -784,10 +798,10 @@ html.ie7 {
 /* Firefox fixes */		
 @-moz-document url-prefix() { 
   #upcoming {
-     top: -10px;
+     top: -18px;
   }
 }
 
 /* IE8, IE9 */
-#upcoming  {top: -23px\0/;}
+#upcoming  {top: -31px\0/;}
 		
